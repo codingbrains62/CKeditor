@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>CodePen - Blog Draft - Text editor</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.3.2/ckeditor.js" ></script>
+
+</head>
+<body>
+      <textarea id="post_text" class="post-area">
+      </textarea>
+      
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script>
+  CKEDITOR.replace("post_text", {
+  language: "en",
+  uiColor: "#dddddd",
+  height: 100,
+  resize_dir: 'vertical'
+});
+</script>
+</body>
+</html>
